@@ -56,7 +56,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
 // ===== LOAD FEATURED CARS =====
 async function loadFeaturedCars() {
     try {
-        const response = await fetch('data/cars.json');
+        const response = await fetch('./data/cars.json');
         const data = await response.json();
         
         const featuredCarsContainer = document.getElementById('featured-cars-grid');
