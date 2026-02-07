@@ -18,6 +18,7 @@
       "image": "images/cars/mercedes-e220.png",
       "images": ["images/cars/mercedes-e220.png"],
       "featured": true,
+      "otomotoLink": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-klasa-e-ID6HTaJ7.html",
       "description": "Elegancki Mercedes-Benz Klasa E w doskonałym stanie technicznym. Komfortowe wnętrze, ekonomiczny silnik diesel i pełne wyposażenie.",
       "equipment": [
         "Skórzana tapicerka",
@@ -48,6 +49,7 @@
       "image": "images/cars/audi-sq7.png",
       "images": ["images/cars/audi-sq7.png"],
       "featured": true,
+      "otomotoLink": "https://www.otomoto.pl/osobowe/oferta/audi-sq7-ID6GvI6r.html",
       "description": "Sportowe SUV premium z potężnym silnikiem V8. Doskonałe osiągi połączone z przestronnością 7-osobowego wnętrza.",
       "equipment": [
         "Pakiet S-Line",
@@ -78,6 +80,7 @@
       "image": "images/cars/ford-mustang.png",
       "images": ["images/cars/ford-mustang.png"],
       "featured": true,
+      "otomotoLink": "https://www.otomoto.pl/osobowe/oferta/ford-mustang-mach-e-ID6HRaUX.html",
       "description": "Elektryczny crossover w sportowej stylistyce Mustanga. Zerowa emisja, świetne osiągi i nowoczesne technologie.",
       "equipment": [
         "Zasięg do 600 km",
@@ -108,6 +111,7 @@
       "image": "images/cars/mercedes-s.png",
       "images": ["images/cars/mercedes-s.png"],
       "featured": true,
+      "otomotoLink": "https://www.otomoto.pl/osobowe/oferta/mercedes-benz-klasa-s-ID6HRrn7.html",
       "description": "Luksusowa limuzyna klasy premium. Maybach to synonim elegancji i komfortu na najwyższym poziomie.",
       "equipment": [
         "Masaż foteli",

@@ -69,10 +69,13 @@ async function loadFeaturedCars() {
             featuredCarsContainer.innerHTML += carCard;
         });
         
-        // Add click listeners to car cards - link to OtoMoto
+        // Add click listeners to car cards - link to specific OtoMoto listing
         document.querySelectorAll('.car-card').forEach(card => {
             card.addEventListener('click', function() {
-                window.open('https://motocentrum-tyrtania.otomoto.pl/', '_blank');
+                const otomotoLink = this.dataset.otomotoLink;
+                if (otomotoLink) {
+                    window.open(otomotoLink, '_blank');
+                }
             });
         });
         
@@ -84,7 +87,7 @@ async function loadFeaturedCars() {
 // Create car card HTML
 function createCarCard(car) {
     return `
-        <div class="car-card" data-car-id="${car.id}">
+        <div class="car-card" data-car-id="${car.id}" data-otomoto-link="${car.otomotoLink || ''}">
             <div class="car-image">
                 <img src="${car.image}" alt="${car.brand} ${car.model}">
                 ${car.featured ? '<span class="car-badge">Polecane</span>' : ''}
